@@ -65,16 +65,19 @@ width: 50%;
     font-size: 18px;
     color: #3C354F;
 }
-.Follow-btn{
+.chisty{
     width: 262px;
-height: 56px;
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    text-align: center;
-    padding-top: 17px;
-    padding-bottom: 18px;
-    padding-left: 24px;
+    height: 56px;
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        text-align: center;
+        padding-top: 17px;
+        padding-bottom: 18px;
+        padding-left: 24px;
+        padding-right: 30px;
+        margin: 0 auto;
 }
+
 .banner-container{
    
     max-width: 1440px;
@@ -325,7 +328,7 @@ bottom: 200px;
     margin: 50px auto 0;
 
 background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-display: flex;
+/* display: flex; */
 
 
 }
@@ -344,7 +347,14 @@ font-weight: 400;
     width: 50%;
 }
 .banner-image5{
-    width: 50;
+    width: 50%;
+    position: relative;
+    margin-left: 45%;
+    bottom: 100px;
+}
+.text-messi{
+    width: 50%;
+    
 }
 .banner-latest{
     max-width: 1440px;
@@ -456,6 +466,130 @@ font-weight: 600;
     font-size: 1.25rem;
     font-weight: 600;
 }
+.last{
+    max-width: 1440px;
+    min-height: 50px;
+    margin: 50px auto 0;
+    background:  #0B0223;
+}
+.last-logo{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+    position: relative;
+    left: 45%;
+
+}
+.last-span{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FF42A5 ;
+}
+.last-description{
+    color: #FFF;
+    
+    font-size: 2.81rem;
+    font-weight: 700;
+
+}
+.asus{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    gap: 60px;
+    position: relative;
+    left: 23%;
+    margin-top: 40px;
+
+
+}
+.last-icon{
+    gap: 40px;
+    position: relative;
+    left: 30%;
+}
+.b1{
+    width: 40px;
+height: 40px;
+color: #FFF;
+margin-right: 40px;
+margin-left: 5px;
+}
+.b2{
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    margin-right: 40px;
+}
+.b3{
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    margin-right: 40px;
+}
+.b4{
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    margin-right: 40px;
+}
+.b5{
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    margin-right: 40px;
+}
+.b6{
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+    color: #FFFFFF;
+}
+.rani{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 25%;
+    
+}
+.rani1{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 1rem;
+font-weight: 500;
+margin-right: 60px;
+
+
+}
+.rani2{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 60px;
+}
+.rani3{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 60px;
+}
+.rani4{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+.akash{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 1rem;
+font-weight: 500;
+position: relative;
+left: 30%;
+}
+
+
+
+
 
 
 
@@ -479,7 +613,7 @@ font-weight: 600;
 }
 .banner-image  {
     flex-direction: column;
-    width: 100%;
+
 
 }
 .banner-container1{
@@ -488,7 +622,11 @@ font-weight: 600;
 }
 .banner-image1{
     flex-direction: column;
-    width: 1000%;
+    /* height: 100px; */
+}
+.banner-text1{
+    flex-direction: column;
+
 }
 .banner-container2{
     flex-direction: column;
@@ -504,6 +642,12 @@ font-weight: 600;
     
 }
 .main-div,.main-div1{
+    flex-direction: column;
+}
+.last-logo{
+    flex-direction: column;
+}
+.asus{
     flex-direction: column;
 }
 
